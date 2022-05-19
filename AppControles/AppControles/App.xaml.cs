@@ -11,7 +11,7 @@ namespace AppControles
         {
             InitializeComponent();
 
-            MainPage = new PaginaEventos();
+            MainPage = new DynamicControlsView();
         }
 
         protected override void OnStart()
