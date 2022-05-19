@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppControles.Views.PaginaEventos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Eventos en Xamarin" FontSize="30"/>
+            <Entry Placeholder="Introduzca su nombre" x:Name="cajaNombre"/>
+            <Button Text="Pulsar para evento" x:Name="botonAccion"/>
+            <Label FontSize="20" TextColor="Blue" x:Name="labelResultado"/>
+            <ProgressBar x:Name="progressBar1" 
+                         HorizontalOptions="FillAndExpand"/>
+            <Slider x:Name="slider1" Minimum="0"
+                    Maximum="100" />
+            <Stepper x:Name="stepper1"
+                     Minimum="0" Maximum="10"
+                     Increment="0.1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
