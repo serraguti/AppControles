@@ -11,7 +11,9 @@ namespace AppControles
         {
             InitializeComponent();
 
-            MainPage = new DynamicControlsView();
+            //MainPage = new NavigationPage
+            //    (new MenuNavegacionView());
+            MainPage = new TiposAlertaView();
         }
 
         protected override void OnStart()

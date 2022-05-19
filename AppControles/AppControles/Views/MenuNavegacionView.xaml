@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppControles.Views.MenuNavegacionView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menu de navegacion"
+                   FontSize="35" TextColor="Blue"
+                HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="botonNavegacion1"
+                    Text="Boton navegacion 1"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="botonNavegacion2"
+                    Text="Boton navegacion 2"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
